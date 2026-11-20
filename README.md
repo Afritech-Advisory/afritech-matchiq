@@ -13,3 +13,7 @@ Contact: Advisory@afritechsports.com
 ## Four languages
 
 Every page is published in English, French, Kiswahili and Brazilian Portuguese (copies under `fr/`, `sw/` and `pt/`, each with a language bar). After adding or changing a page, add the French, Kiswahili and Brazilian Portuguese wording for any new text to `i18n/strings.py` and run `python3 i18n/build.py`. The build stops and lists any text that has no translation in `i18n/missing.txt`. Names, scores and source titles stay as written.
+
+## Nothing on a public page sends people away (Andrew, 20 Nov 2026)
+
+Goal footage plays inside the dashboard only. No "watch on" links to broadcasters or video sites on any public MatchIQ page, and video sources in the sources list are credited as text without a link. Written sources (match reports, federations, statistics) keep their links so every figure can be checked.
