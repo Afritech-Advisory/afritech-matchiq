@@ -22,7 +22,7 @@ LETTER = re.compile(r"[A-Za-z]{2}")
 KEEP = {"Afritech Sports", "MatchIQ", "AFRITECH MATCHIQ™", "Stephen", "Umejiaku", "Anri Ito", "Fuki Ito", "39' Bashiru", "47' Umejiaku", "80' Fuki Ito",
         "39' Bashiru, 0–1", "47' Umejiaku, 0–2", "80' Fuki Ito, 1–2", "39' Bashiru · 47' Umejiaku · 80' Fuki Ito",
         "Afritech Sports Technology and Innovation Group Limited"}
-SOURCE = re.compile(r"^[A-Z][\w .]+ \| .+ ›$")  # titles in the sources list stay as written
+SOURCE = re.compile(r"^[A-Z][\w .]+ \| .+?( ›)?$")  # titles in the sources list stay as written
 CSS = ('<style id="afs-lang-css">.afs-lang{background:#0B1C33;font:600 13px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;'
        'text-align:center;padding:6px 8px}.afs-lang a{color:#C9D6E6;text-decoration:none;padding:6px 8px;border-radius:6px;display:inline-block}'
        '.afs-lang a.on{background:#14B8A6;color:#06221F}</style>')
